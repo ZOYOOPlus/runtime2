@@ -15,9 +15,6 @@
 		C3DF40321FCD184A00016F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF40311FCD184A00016F9B /* main.m */; };
 		C3DF403C1FCD184A00016F9B /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF403B1FCD184A00016F9B /* runtimeTests.m */; };
 		C3DF40471FCD184A00016F9B /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF40461FCD184A00016F9B /* runtimeUITests.m */; };
-		C3DF40561FCD18E000016F9B /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF40551FCD18E000016F9B /* MyObject.m */; };
-		C3DF405C1FCD1A2000016F9B /* UIView+TYView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF405B1FCD1A2000016F9B /* UIView+TYView.m */; };
-		C3DF405F1FCD1AD300016F9B /* UIViewController+Traking.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF405E1FCD1AD300016F9B /* UIViewController+Traking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +51,6 @@
 		C3DF40421FCD184A00016F9B /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DF40461FCD184A00016F9B /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		C3DF40481FCD184A00016F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3DF40541FCD18E000016F9B /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
-		C3DF40551FCD18E000016F9B /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
-		C3DF405A1FCD1A2000016F9B /* UIView+TYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYView.h"; sourceTree = "<group>"; };
-		C3DF405B1FCD1A2000016F9B /* UIView+TYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYView.m"; sourceTree = "<group>"; };
-		C3DF405D1FCD1AD300016F9B /* UIViewController+Traking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Traking.h"; sourceTree = "<group>"; };
-		C3DF405E1FCD1AD300016F9B /* UIViewController+Traking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Traking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +110,6 @@
 				C3DF402D1FCD184A00016F9B /* LaunchScreen.storyboard */,
 				C3DF40301FCD184A00016F9B /* Info.plist */,
 				C3DF40311FCD184A00016F9B /* main.m */,
-				C3DF40541FCD18E000016F9B /* MyObject.h */,
-				C3DF40551FCD18E000016F9B /* MyObject.m */,
-				C3DF405A1FCD1A2000016F9B /* UIView+TYView.h */,
-				C3DF405B1FCD1A2000016F9B /* UIView+TYView.m */,
-				C3DF405D1FCD1AD300016F9B /* UIViewController+Traking.h */,
-				C3DF405E1FCD1AD300016F9B /* UIViewController+Traking.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -280,11 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DF405C1FCD1A2000016F9B /* UIView+TYView.m in Sources */,
 				C3DF40271FCD184A00016F9B /* ViewController.m in Sources */,
 				C3DF40321FCD184A00016F9B /* main.m in Sources */,
-				C3DF405F1FCD1AD300016F9B /* UIViewController+Traking.m in Sources */,
-				C3DF40561FCD18E000016F9B /* MyObject.m in Sources */,
 				C3DF40241FCD184A00016F9B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +433,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62S3JX6ZZB;
 				INFOPLIST_FILE = runtime/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taby2.runtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,7 +447,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62S3JX6ZZB;
 				INFOPLIST_FILE = runtime/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taby2.runtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
