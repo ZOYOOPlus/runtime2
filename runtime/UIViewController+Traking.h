@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewController+Traking.h
 //  runtime
 //
 //  Created by 张源海 on 2017/11/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (nonatomic,strong) NSString *person;
+@interface UIViewController (Traking)
 
 @end
-
